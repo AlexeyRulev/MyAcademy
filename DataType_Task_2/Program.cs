@@ -55,7 +55,7 @@ namespace DataType_Task_2
       // Создаем экземпляр класса, используя краткую форму new()
       ShapePrinter printer = new();
 
-      // Генерируем ромб с диагональю 5
+      // Генерируем ромб с диагональю 7
       string rhombusImage = printer.DrawRhombus(7);
 
       // Выводим результат на экран
