@@ -8,11 +8,10 @@ namespace OOP__Task_Topic2
   /// </summary>
   public class Product
   {
-    // Используем встроенные ключевые слова типов и свойства в PascalCase
     public string Name { get; set; }
     public string Manufacturer { get; set; }
 
-    // Для цен в C# всегда используется тип decimal, а не double, чтобы избежать ошибок округления
+    // Для цен  используется тип decimal, а не double, чтобы избежать ошибок округления
     public decimal Price { get; set; }
 
     // Срок годности можно хранить в днях (int)
@@ -44,7 +43,7 @@ namespace OOP__Task_Topic2
       // Устанавливаем инвариантную культуру для консоли, чтобы ввод чисел с точкой/запятой не ломал программу
       CultureInfo.DefaultThreadCurrentCulture = CultureInfo.InvariantCulture;
 
-      // Создаем экземпляр класса, используя современную краткую форму new()
+      // Создаем экземпляр класса, используя краткую форму new()
       Product product = new();
 
       Console.WriteLine("=== Ввод данных о товаре ===");
@@ -66,7 +65,7 @@ namespace OOP__Task_Topic2
 
       Console.WriteLine("\n=== Результат работы программы ===");
 
-      // Выводим объект на консоль. Метод ToString() вызовется автоматически под капотом
+      // Выводим объект на консоль.
       Console.WriteLine(product);
     }
   }
