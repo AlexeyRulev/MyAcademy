@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35919.96 d17.13
+VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataType_Task_1", "DataType_Task_1\DataType_Task_1.csproj", "{6C83C87C-7A28-40CC-B902-B66B97903B96}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP__Task_Topic2", "OOP__Task_Topic2\OOP__Task_Topic2.csproj", "{8D619EDA-F0AB-4D9A-AE37-1D360308ACC1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections_Task", "Collections_Task\Collections_Task.csproj", "{8284EAEF-C9DE-48CF-9925-7156ADC3C7CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Studio3D_DbApp", "Studio3D_DbApp\Studio3D_DbApp.csproj", "{645328C4-A81C-4460-AE82-F925CD62D5B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{8284EAEF-C9DE-48CF-9925-7156ADC3C7CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8284EAEF-C9DE-48CF-9925-7156ADC3C7CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8284EAEF-C9DE-48CF-9925-7156ADC3C7CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{645328C4-A81C-4460-AE82-F925CD62D5B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{645328C4-A81C-4460-AE82-F925CD62D5B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{645328C4-A81C-4460-AE82-F925CD62D5B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{645328C4-A81C-4460-AE82-F925CD62D5B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
